@@ -53,14 +53,19 @@ public class CustomList extends ArrayAdapter<City> {
     }
     /**
      * this adds a city object to the list
-     *for the first phase it will be
-     empty * @param city
+     *the second phase, you can add the
+     city * @param city
      */
     public void addCity(City city){
-        if (cities.contains(city)) {
-            throw new IllegalArgumentException();
-        }
         cities.add(city);
     }
+    /**
+     * this checks if city is in the list
+     city * @param city
+     */
+    public void hasCity(City city){
+
+    }
+
 
 }
